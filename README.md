@@ -18,3 +18,14 @@ An analysis tool for personal Google Calendars.
 ## Tools
 - Jupyter Notebook
 - Google Cloud (Google Calendar API)
+
+## Libraries
+- Google OAuth2
+  - Credentials
+- Google Auth
+  - Request
+  - Flow/InstalledAppFlow
+- Google API Client
+  - Build
+  - Http
+- Pandas
