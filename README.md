@@ -25,7 +25,7 @@ An analysis tool for personal Google Calendars.
 - Google Auth
   - Request
   - Flow/InstalledAppFlow
-- Google API Client
+- Google API Python Client
   - Build
   - Http
 - Pandas
