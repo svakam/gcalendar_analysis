@@ -2,6 +2,8 @@
 
 An analysis tool for personal Google Calendars. 
 
+[workflow image]
+
 ## Workflow
 1. Authorization & Authentication 
 2. API call to Google Calendar API
