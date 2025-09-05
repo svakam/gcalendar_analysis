@@ -2,9 +2,11 @@
 
 An analysis tool for personal Google Calendars. 
 
+[workflow image]
+
 ## Workflow
-1. Authorization & Authentication 
-2. API call to Google Calendar API
+1. Authentication and authorization
+2. App makes API call to Google Calendar API
 3. Collect returned response containing user calendar data 
 4. Analyze data
 5. Output data file
@@ -25,7 +27,7 @@ An analysis tool for personal Google Calendars.
 - Google Auth
   - Request
   - Flow/InstalledAppFlow
-- Google API Client
+- Google API Python Client
   - Build
   - Http
 - Pandas
