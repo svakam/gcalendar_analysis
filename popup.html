@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Google Calendar Extension</title>
-    <script src="https://apis.google.com/js/api.js"></script>
-    <script src="popup.js"></script>
-  </head>
-  <body>
-    <button id="authorize">Connect Google Calendar</button>
-    <pre id="output"></pre>
-  </body>
+<head>
+  <title>Calendar Insights</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 10px; width: 300px; }
+    button { margin-top: 10px; display: block; }
+    #events { max-height: 200px; overflow-y: auto; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Calendar Insights</h1>
+  <button id="login">Login with Google</button>
+  <button id="fetch">Fetch Events</button>
+  <button id="export">Export CSV</button>
+  <div id="status"></div>
+  <ul id="events"></ul>
+  <hr>
+  <a href="dashboard.html" target="_blank">Open Dashboard</a>
+
+  <script src="popup.js"></script>
+</body>
 </html>

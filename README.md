@@ -18,8 +18,9 @@ An analysis tool for personal Google Calendars.
 - Count # of hours in each event per calendar
 
 ## Tools
-- Jupyter Notebook
-- Google Cloud (Google Calendar API)
+- JavaScript/HTML
+- Google Calendar API
+- Google Chrome Extension API
 
 ## Libraries
 - Google OAuth2
@@ -27,7 +28,3 @@ An analysis tool for personal Google Calendars.
 - Google Auth
   - Request
   - Flow/InstalledAppFlow
-- Google API Python Client
-  - Build
-  - Http
-- Pandas
